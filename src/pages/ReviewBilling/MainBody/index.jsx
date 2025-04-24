@@ -67,16 +67,13 @@ const MainBody = () => {
                 </Grid>
 
                 {/* Invoice Preview */}
-                <Grid item size={2}>
-                <svg width="500" height="600" viewBox="0 0 730 862" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <rect y="0.5" width="730" height="861" rx="20" fill="#F6DEBA"/>
-                    <rect y="0.5" width="730" height="861" rx="20" fill="url(#pattern0_1_1176)"/>
-                    <defs>
-                    <pattern id="pattern0_1_1176" patternContentUnits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0_1_1176" transform="matrix(0.00152304 0 0 0.00129131 0.0178761 0.104709)"/>
-                    </pattern>
-                    </defs>
-                </svg>
+                <Grid item size={2}>    
+                    <img
+                        height={'600px'}
+                        width={'500px'}
+                        src='/bodyImage.png'
+                    />
+
                 </Grid>
             </Grid>
         </Paper>
