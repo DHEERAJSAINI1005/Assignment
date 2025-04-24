@@ -92,7 +92,7 @@ import {
             <Typography fontWeight={600}>Description</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography fontWeight={500} sx={{ mb: 1, color:"#8181A5", textAlign: }}>Line Item</Typography>
+            <Typography fontWeight={500} sx={{ mb: 1, color:"#8181A5", textAlign:"left" }}>Line Item</Typography>
             <RadioGroup row sx={{ mb: 2 }}>
               <FormControlLabel value="single" control={<Radio color="primary" />} label="Single" />
               <FormControlLabel value="multiple" control={<Radio color="primary" />} label="Multiple" />
